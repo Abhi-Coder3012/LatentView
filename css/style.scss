@@ -1,0 +1,66 @@
+// variables
+
+$primery-color:#1B59A4;
+$bg-color:#e2e8e8;
+$pg-color:#333F4A;
+
+@mixin flex-box($jc:space-between,$ai:center) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+} 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+// ----header----//
+
+@import "header";
+
+// -----Expertise-Section-----//
+
+@import "expertise";
+
+// -----industries-section-----//
+
+@import "industries";
+
+// insights-section //
+
+@import "insights";
+
+// article-section//
+
+@import "article";
+
+// highlights//
+
+@import "highlights";
+
+// ----footer-section----//
+
+@import "footer";
+
+//---Ending---//
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

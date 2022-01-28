@@ -1,0 +1,29 @@
+.insights-box{
+    @include flex-box;
+    margin-top:50px;
+    .insights-col{
+        width:30%;
+        height: 500px;
+        margin:0px 20px;
+        h3{
+            color: $primery-color;
+            font-size: 20px;
+            font-weight: 400;
+        }
+        p{
+            color: $pg-color;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 30px;
+        }
+        position: relative;
+        .blue-btn{
+            text-align: start;
+            position: absolute;
+            top:450px;
+            button{
+                padding: 10px 30px;
+            }
+        }
+    }
+}

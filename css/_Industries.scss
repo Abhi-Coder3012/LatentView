@@ -1,0 +1,20 @@
+.ind-section{
+    background-color: #fff;
+    .ind-card{
+        width: 25%;
+        height: 200px;
+        border-radius: 10px;
+        margin:0px 15px;
+        background-color: $primery-color;
+        img{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        h2{
+            color: #fff;
+            text-align: center;
+            font-size: 20px;
+            font-weight: 300;
+        }
+    }
+}
